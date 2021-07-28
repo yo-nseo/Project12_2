@@ -54,7 +54,7 @@
             android:layout_height="wrap_content" />
 
         <Button
-            android:id="@+id/btn_iput"
+            android:id="@+id/btn_input"
             android:text="@string/btn_input"
             android:layout_marginRight="10dp"
             android:layout_width="wrap_content"
@@ -75,7 +75,13 @@
         android:layout_height="match_parent" >
 
         <EditText
-            android:id="@+id/edit_result"
+            android:id="@+id/edit_name_result"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <EditText
+            android:id="@+id/edit_count_result"
+            android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
